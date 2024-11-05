@@ -51,7 +51,7 @@ export default function Home() {
         </a>
 
         <a
-          href="https://music.apple.com/us/artist/felix-zepol/1774570020"
+          href="https://music.amazon.com/artists/B0DK811CHZ/felix-zepol"
           target="_blank"
         >
           <Button variant="amazon">
