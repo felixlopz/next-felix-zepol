@@ -1,22 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-import { Righteous, Montserrat } from "next/font/google";
-
-export const righteous = Righteous({
-  weight: "400",
-  subsets: ["latin"],
-  display: "swap",
-});
-
-export const montserrat = Montserrat({
-  weight: "600",
-  subsets: ["latin"],
-  display: "swap",
-});
-
 export const metadata: Metadata = {
-  title: "Felix Zepol",
+  title: "Felix Zepol | Alt Rock Artist",
   description: "Felix Zepol's Artist Website",
 };
 

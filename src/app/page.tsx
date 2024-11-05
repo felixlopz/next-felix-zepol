@@ -1,9 +1,9 @@
 import Image from "next/image";
 import { cn } from "./utils";
-import { righteous } from "./layout";
+import { righteous } from "./fonts";
 import { Button } from "./button";
 
-import { SiApplemusic, SiTidal } from "react-icons/si";
+import { SiApplemusic } from "react-icons/si";
 import { FaSpotify, FaTiktok, FaYoutube, FaInstagram } from "react-icons/fa6";
 
 import SVGAmazonMusic from "../../public/amazon.svg";

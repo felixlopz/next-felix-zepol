@@ -1,8 +1,7 @@
 import React from "react";
 import { cn } from "./utils";
-import { montserrat } from "./layout";
+import { montserrat } from "./fonts";
 import { cva, VariantProps } from "class-variance-authority";
-import Link from "next/link";
 
 const buttonVariants = cva(
   "relative inline-flex items-center justify-center p-0.5 overflow-hidden text-sm font-medium text-[#130F0D] rounded-lg group bg-gradient-to-br hover:text-white  focus:ring-4 focus:outline-none focus:ring-blue-300 w-full",
