@@ -10,16 +10,21 @@ const buttonVariants = cva(
       variant: {
         default:
           "from-white to-white group-hover:from-white group-hover:to-white",
-        spotify:
-          "from-[#1db954] to-[#1db949] group-hover:from-[#1db954] group-hover:to-[#1db949]",
-        apple:
-          "from-[#FD4C5D] to-[#F92A3D] group-hover:from-[#FD4C5D] group-hover:to-[#F92A3D]",
-        amazon:
-          "from-[#3B09F8] to-[#271D65] group-hover:from-[#3B09F8] group-hover:to-[#271D65]",
-        deezer:
-          "from-[#9733F8] to-[#891df5] group-hover:from-[#9733F8] group-hover:to-[#891df5]",
-        tidal:
-          "from-[#000] to-[#000] group-hover:from-[#000] group-hover:to-[#000]",
+        spotify: "",
+        apple: "",
+        amazon: "",
+        deezer: "",
+        tidal: "",
+        // spotify:
+        //   "from-[#1db954] to-[#1db949] group-hover:from-[#1db954] group-hover:to-[#1db949]",
+        // apple:
+        //   "from-[#FD4C5D] to-[#F92A3D] group-hover:from-[#FD4C5D] group-hover:to-[#F92A3D]",
+        // amazon:
+        //   "from-[#3B09F8] to-[#271D65] group-hover:from-[#3B09F8] group-hover:to-[#271D65]",
+        // deezer:
+        //   "from-[#9733F8] to-[#891df5] group-hover:from-[#9733F8] group-hover:to-[#891df5]",
+        // tidal:
+        //   "from-[#000] to-[#000] group-hover:from-[#000] group-hover:to-[#000]",
       },
       size: {
         default: "",
