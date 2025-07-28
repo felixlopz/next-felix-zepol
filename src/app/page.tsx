@@ -11,8 +11,8 @@ export default function Home() {
       <Image
         src={"/profile.jpeg"}
         alt="Felix Zepol Profile Pic"
-        width={200}
-        height={200}
+        width={142}
+        height={142}
         className="rounded-full mb-8 shadow-lg shadow-black/20"
       />
 
