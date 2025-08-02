@@ -87,7 +87,7 @@ export default function Home() {
           <p className="text-white">Poesía Moderna OUT 15/08</p>
         </a>
         <a
-          href="https://open.spotify.com/album/67e0F9GxAvxqCEswJMgE3H"
+          href="https://open.spotify.com/track/6QotTxC3M7J3R5s8KRCiDT?si=0ddfe1413b3847b4"
           target="_blank"
           title="EP: Día Cero"
           className="flex items-center gap-x-2 mb-4  rounded-sm  w-[325px] bg-stone-900 px-4 py-2"
@@ -102,7 +102,7 @@ export default function Home() {
           <p className="text-white">EP: Día Cero</p>
         </a>
         <a
-          href="https://open.spotify.com/album/4OKkA4NtQnD712iONYMDK9?si=xbVf0c0sS6q-SCjOEM4kxA"
+          href="https://open.spotify.com/track/0NRkIYzO2tYPmYrfJRZ4SC?si=22cf365558c040ca"
           target="_blank"
           title="El Principio Del Final"
           className="flex items-center gap-x-2 mb-4  rounded-sm  w-[325px] bg-stone-900 px-4 py-2"
@@ -117,7 +117,7 @@ export default function Home() {
           <p className="text-white">El Principio Del Final</p>
         </a>
         <a
-          href="https://open.spotify.com/album/4lGxKQnW9QebHNng9EZxmz"
+          href="https://open.spotify.com/track/0jNSsYtDlPFDrsSAEC2vvH?si=1940c6c86cdf4d93"
           target="_blank"
           title="Indomables"
           className="flex items-center gap-x-2 mb-4  rounded-sm  w-[325px] bg-stone-900 px-4 py-2"
