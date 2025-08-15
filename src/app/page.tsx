@@ -4,6 +4,7 @@ import { righteous } from "./fonts";
 
 import { SiApplemusic } from "react-icons/si";
 import { FaSpotify, FaTiktok, FaYoutube, FaInstagram } from "react-icons/fa6";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -68,8 +69,8 @@ export default function Home() {
         Discografía
       </h3>
       <div className="">
-        <a
-          href="#"
+        <Link
+          href="/poesia-moderna"
           target="_blank"
           title="Poesía Moderna - 15/08"
           className="relative flex items-center gap-x-2 mb-4  rounded-sm  w-[325px] bg-stone-900 px-4 py-2"
@@ -84,8 +85,8 @@ export default function Home() {
             height={50}
             className="rounded-sm "
           />
-          <p className="text-white">Poesía Moderna OUT 15/08</p>
-        </a>
+          <p className="text-white">Poesía Moderna</p>
+        </Link>
         <a
           href="https://open.spotify.com/track/6QotTxC3M7J3R5s8KRCiDT?si=0ddfe1413b3847b4"
           target="_blank"
