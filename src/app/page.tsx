@@ -71,7 +71,6 @@ export default function Home() {
       <div className="">
         <Link
           href="/poesia-moderna"
-          target="_blank"
           title="Poesía Moderna - 15/08"
           className="relative flex items-center gap-x-2 mb-4  rounded-sm  w-[325px] bg-stone-900 px-4 py-2"
         >
