@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/next";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
+import GoogleTagManager from "@/components/GoogleTagManager";
 
 export const metadata: Metadata = {
   title: "Felix Zepol | Alt Rock Artist",
@@ -15,9 +16,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <GoogleTagManager />
       <GoogleAnalytics />
       <Analytics />
-      <body>{children}</body>
+      <body>
+        <noscript
+          dangerouslySetInnerHTML={{
+            __html: `
+              <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MP2C9D4V"
+              height="0" width="0" style="display:none;visibility:hidden"></iframe>
+            `,
+          }}
+        />
+        {children}
+      </body>
     </html>
   );
 }
