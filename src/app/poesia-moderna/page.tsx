@@ -6,6 +6,7 @@ import { cn } from "../utils";
 import { righteous } from "../fonts";
 import Link from "next/link";
 import { FaArrowAltCircleLeft } from "react-icons/fa";
+import MusicLink from "../../components/MusicLink";
 
 const PmPage = () => {
   return (
@@ -26,59 +27,31 @@ const PmPage = () => {
       </p>
 
       <div className="">
-        <a
+        <MusicLink
           href="https://www.youtube.com/watch?v=pOmzulX0pN0"
-          target="_blank"
-          title="Poesía Moderna - 15/08"
-          className="relative flex items-center gap-x-2 mb-4  rounded-sm  w-[400px] bg-stone-900 px-4 py-8 h-[50px]"
-        >
-          <div className="absolute w-3 h-3 bg-white left-[20px] top-[25px]-z-10"></div>
-          <FaYoutube className="text-[#FF0000] z-20" size={24} />
-          <p className="text-white font-bold">Youtube</p>
-          <span className="ml-auto block py-1 px-5 rounded-sm border-white text-white  border-2">
-            Play
-          </span>
-        </a>
-        <a
+          icon={<FaYoutube className="text-[#FF0000] z-20" size={24} />}
+          label="Youtube"
+          id="streaming-link"
+          iconBackgroundClass=" left-[20px] top-[25px] h-[12px]"
+        />
+        <MusicLink
           href="https://open.spotify.com/track/3TCH33GYXYGEkOCawZABY0?si=bc5696f5407c4ee2"
-          target="_blank"
-          title="Poesía Moderna - 15/08"
-          className="relative flex items-center gap-x-2 mb-4  rounded-sm  w-[400px] bg-stone-900 px-4 py-8 h-[50px]"
-        >
-          <div className="absolute w-4 h-4 bg-white left-[20px] top-[25px]-z-10"></div>
-
-          <FaSpotify className="text-green-500 z-20" size={24} />
-          <p className="text-white font-bold">Spotify</p>
-          <span className="ml-auto block py-1 px-5 rounded-sm border-white text-white  border-2">
-            Play
-          </span>
-        </a>
-        <a
+          icon={<FaSpotify className="text-green-500 z-20" size={24} />}
+          label="Spotify"
+          id="streaming-link"
+        />
+        <MusicLink
           href="https://music.youtube.com/watch?v=pOmzulX0pN0&si=Mj-UnepTcLKFrPk1"
-          target="_blank"
-          title="Poesía Moderna - 15/08"
-          className="relative flex items-center gap-x-2 mb-4  rounded-sm  w-[400px] bg-stone-900 px-4 py-8 h-[50px]"
-        >
-          <div className="absolute w-4 h-4 bg-white left-[20px] top-[25px]-z-10"></div>
-          <SiYoutubemusic className="text-[#FF0000] z-20" size={24} />
-          <p className="text-white font-bold">Youtube Music</p>
-          <span className="ml-auto block py-1 px-5 rounded-sm border-white text-white  border-2">
-            Play
-          </span>
-        </a>
-        <a
+          icon={<SiYoutubemusic className="text-[#FF0000] z-20" size={24} />}
+          label="Youtube Music"
+          id="streaming-link"
+        />
+        <MusicLink
           href="https://music.apple.com/us/song/poes%C3%ADa-moderna/1827612435"
-          target="_blank"
-          title="Poesía Moderna - 15/08"
-          className="relative flex items-center gap-x-2 mb-4  rounded-sm  w-[400px] bg-stone-900 px-4 py-8 h-[50px]"
-        >
-          <div className="absolute w-4 h-4 bg-white left-[20px] top-[25px]-z-10"></div>
-          <SiApplemusic className="text-[#ff4e6b] z-20" size={24} />
-          <p className="text-white font-bold">Apple Music</p>
-          <span className="ml-auto block py-1 px-5 rounded-sm border-white text-white  border-2">
-            Play
-          </span>
-        </a>
+          icon={<SiApplemusic className="text-[#ff4e6b] z-20" size={24} />}
+          label="Apple Music"
+          id="streaming-link"
+        />
       </div>
       <Link href="/">
         <FaArrowAltCircleLeft className="text-white" size={25} />
