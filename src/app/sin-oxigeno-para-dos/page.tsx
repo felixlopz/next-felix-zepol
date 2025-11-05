@@ -23,7 +23,7 @@ const PmPage = () => {
         Sin Oxígeno Para Dos
       </h3>
       <p className={cn("text-white opacity-90 font-serif mb-5")}>
-        Existen solo dos vidas
+        La vida que quieres te cuesta la vida que tienes
       </p>
 
       <div className="">
