@@ -70,13 +70,27 @@ export default function Home() {
       </h3>
       <div className="">
         <Link
-          href="/poesia-moderna"
-          title="Poesía Moderna - 15/08"
+          href="/sin-oxigeno-para-dos"
+          title="Sin Oxígeno Para Dos"
           className="relative flex items-center gap-x-2 mb-4  rounded-sm  w-[325px] bg-stone-900 px-4 py-2"
         >
           <div className="absolute text-white bg-red-600 p-2 rounded-sm rotate-12 -top-5 -right-5 animate-pulse">
             <span className="text-xs">Nuevo</span>
           </div>
+          <Image
+            src={"/sop2.png"}
+            alt="Sin Oxígeno Para Dos"
+            width={50}
+            height={50}
+            className="rounded-sm "
+          />
+          <p className="text-white">Sin Oxígeno Para Dos</p>
+        </Link>
+        <Link
+          href="/poesia-moderna"
+          title="Poesía Moderna"
+          className="relative flex items-center gap-x-2 mb-4  rounded-sm  w-[325px] bg-stone-900 px-4 py-2"
+        >
           <Image
             src={"/pm.png"}
             alt="Ep Dia Cero"
