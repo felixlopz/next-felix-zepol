@@ -3,6 +3,8 @@ import "./globals.css";
 import { Analytics } from "@vercel/analytics/next";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import GoogleTagManager from "@/components/GoogleTagManager";
+import { spaceMono } from "./fonts";
+import { PlayerProvider } from "@/components/Player";
 
 export const metadata: Metadata = {
   title: "Felix Zepol | Alt Rock Artist",
@@ -19,7 +21,7 @@ export default function RootLayout({
       <GoogleTagManager />
       <GoogleAnalytics />
       <Analytics />
-      <body>
+      <body className={spaceMono.className}>
         <noscript
           dangerouslySetInnerHTML={{
             __html: `
@@ -28,7 +30,7 @@ export default function RootLayout({
             `,
           }}
         />
-        {children}
+        <PlayerProvider>{children}</PlayerProvider>
       </body>
     </html>
   );
